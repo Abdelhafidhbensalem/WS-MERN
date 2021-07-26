@@ -1,0 +1,24 @@
+{
+  "name": "contact-ws",
+  "version": "1.0.0",
+  "description": "mern application",
+  "main": "index.js",
+  "scripts": {
+    "front": "cd client && npm start",
+    "back": "nodemon server.js",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "author": "abs",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
